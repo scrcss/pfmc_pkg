@@ -1,0 +1,13 @@
+useDynLib(PFMC, .registration = TRUE)
+
+import("glmnet")
+import("parallel")
+import("doSNOW")
+importFrom("stats", "weighted.mean")
+importFrom("stats", "model.matrix")
+importFrom("survival", "coxph")
+importFrom("survival", "Surv")
+import("foreach")
+
+
+export(calcvcox, pmixcox)
