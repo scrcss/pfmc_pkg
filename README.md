@@ -9,5 +9,5 @@ For lastest development version run:
 
 ``` r
 install.packages("devtools")
-devtools::install_github('scrcss/PFMC')
+devtools::install_github('scrcss/pfmc_pkg')
 ```
